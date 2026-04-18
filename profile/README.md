@@ -1,87 +1,43 @@
-<h1 align="center">Openxos</h1>
+<div align="center">
 
-<p align="center">
-  Open-source security and developer tooling.<br>
-  CLI-first · Plugin-driven · Privacy-first · Zero telemetry
-</p>
+# Openxos
 
-<p align="center">
-  <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" />
-  <img src="https://img.shields.io/badge/status-active-brightgreen?style=flat-square" />
-  <img src="https://img.shields.io/badge/built%20with-Rust%20%7C%20Python-orange?style=flat-square" />
-  <img src="https://img.shields.io/badge/platform-Linux%20%7C%20Windows%20%7C%20Android-blue?style=flat-square" />
-</p>
+**Open-source security and developer tooling**
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-00c896?style=flat-square)](./LICENSE)
+[![Status](https://img.shields.io/badge/status-active-00c896?style=flat-square)](#)
+[![Stack](https://img.shields.io/badge/stack-Rust%20·%20Python%20·%20Go%20·%20Node.js-555?style=flat-square)](#)
+
+</div>
 
 ---
 
-## What is Openxos?
-
-Openxos is a collection of free, open-source tools for security practitioners,
-bug bounty hunters, and developers. Every tool is self-hosted, runs offline,
-and produces clean JSON or Markdown output that integrates with any workflow.
-
-No accounts. No cloud dependency. No tracking.
+Openxos is an open-source organization producing security and developer tooling for practitioners who require precision, privacy, and complete operational control. All tools are self-hosted, produce structured output, and carry no external runtime dependencies.
 
 ---
 
-## Tools
+### Principles
 
-| Tool | Description | Language | Status |
-|---|---|---|---|
-| [`openxos-recon`](./openxos-recon) | Subdomain enumeration + asset discovery | Rust | 🔨 Building |
-| [`openxos-audit`](./openxos-audit) | HTTP header + TLS configuration auditor | Python | 📋 Planned |
-| [`openxos-scan`](./openxos-scan) | Port scanner with service fingerprinting | Rust | 📋 Planned |
-| [`openxos-fuzz`](./openxos-fuzz) | Parameter fuzzer for bug bounty workflows | Python | 📋 Planned |
-| [`openxos-report`](./openxos-report) | Vulnerability report generator (MD + JSON) | Python | 📋 Planned |
-| [`openxos-sdk`](./openxos-sdk) | Python plugin SDK — extend any Openxos tool | Python | 🔨 Building |
+**Permanence.** Every tool released under this organization is MIT-licensed and will remain free without exception.
+
+**Sovereignty.** No tool contacts external services, collects telemetry, or requires an account. All data stays on the operator's machine.
+
+**Efficiency.** Core tooling is written in Rust to minimize memory consumption and maximize execution speed — a deliberate choice, not a default.
 
 ---
 
-## Quick Start
+### Support
 
-```bash
-# Install openxos-recon (available after v0.1 release)
-cargo install openxos-recon
+Openxos is an independent, unfunded project maintained by a single developer. If this work has been of value to you, contributions are appreciated.
 
-# Run subdomain enumeration
-openxos-recon --target example.com --output report.json
+**Monero (XMR) — private, no intermediary**
+
+```
+49DDzakQJoKKq5caPdeZMH1JoC1GERzbnTw7RFx5Zq4xFLiXgkNgxuEau4rXH3f5V29cbXPB4bxk1dy1YKxAiwZ9LvkaUCv
 ```
 
 ---
 
-## Philosophy
-
-- **Free core, always.** Every tool in this org is MIT-licensed and free forever.
-- **Self-hosted.** Nothing calls home. You own your data and your results.
-- **Plugin-first.** Every tool accepts plugins via the `openxos-sdk`.
-- **Low footprint.** Core tools written in Rust — minimal memory, maximum speed.
-
----
-
-## Contributing
-
-Read [CONTRIBUTING.md](https://github.com/Openxosdev/.github/blob/main/CONTRIBUTING.md)
-before submitting a PR. Issues and feature requests are open.
-
----
-
-## Support Openxos
-
-Openxos is built solo, in free time, with zero funding.
-If these tools saved you time on a bug bounty or audit, consider supporting:
-
-**Monero (XMR) — fully anonymous, no middleman:**
-
-49DDzakQJoKKq5caPdeZMH1JoC1GERzbnTw7RFx5Zq4xFLiXgkNgxuEau4rXH3f5V29cbXPB4bxk1dy1YKxAiwZ9LvkaUCv
-
-Monero transactions are cryptographically private.
-No account, no KYC, no tracking.
-Funds go toward domain registration, hosting, and development time.
-
----
-
-<p align="center">
-  <sub>Built by <a href="https://github.com/getxeyronoxz">@getxeyronoxz</a> 
-  License · No corporate backing</sub>
-</p>
-
+<div align="center">
+<sub>Maintained by <a href="https://github.com/getxeyronoxz">@getxeyronoxz</a> &nbsp;·&nbsp; MIT License</sub>
+</div>
