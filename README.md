@@ -72,7 +72,7 @@ If these tools saved you time on a bug bounty or audit, consider supporting:
 
 **Monero (XMR) — fully anonymous, no middleman:**
 
-42xpYfgG1k28iLTMkBmqGCZnZbiUNastgYRZRJR7pndx2J1kfabxJ7xHpjR6hQ3PCT93VucFwVsf8TBmfZiCuZxNVjmeX4z
+49DDzakQJoKKq5caPdeZMH1JoC1GERzbnTw7RFx5Zq4xFLiXgkNgxuEau4rXH3f5V29cbXPB4bxk1dy1YKxAiwZ9LvkaUCv
 
 Monero transactions are cryptographically private.
 No account, no KYC, no tracking.
@@ -82,6 +82,6 @@ Funds go toward domain registration, hosting, and development time.
 
 <p align="center">
   <sub>Built by <a href="https://github.com/getxeyronoxz">@getxeyronoxz</a> ·
-  MIT License · No corporate backing</sub>
+  License · No corporate backing</sub>
 </p>
 
