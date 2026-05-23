@@ -167,18 +167,6 @@ Maintained by [@getxeyronoxz](https://github.com/getxeyronoxz) • [openxos-ghos
 
 ---
 
-### Support
-
-Openxos is an independent, unfunded project maintained by a single developer. If this work has been of value to you, contributions are appreciated.
-
-**Monero (XMR) — private, no intermediary**
-
-```
-49DDzakQJoKKq5caPdeZMH1JoC1GERzbnTw7RFx5Zq4xFLiXgkNgxuEau4rXH3f5V29cbXPB4bxk1dy1YKxAiwZ9LvkaUCv
-```
-
----
-
 <div align="center">
 <sub>Maintained by <a href="https://github.com/getxeyronoxz">@getxeyronoxz</a> &nbsp;·&nbsp; MIT License</sub>
 </div>
