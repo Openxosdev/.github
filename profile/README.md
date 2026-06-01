@@ -27,7 +27,7 @@ The framework follows a two-stage reconnaissance methodology that mirrors profes
 
 ## 🛠️ Tools
 
-### Openxos-ghost `v0.1.2`
+### Openxos-ghost `v0.1.3`
 
 Surgical reconnaissance tool that scouts target infrastructure before committing to large-scale analysis. Ghost identifies web application firewalls, determines safe request patterns, and provides intelligence that informs scanning strategy for subsequent tools.
 
@@ -117,7 +117,7 @@ The Openxos framework is built on carefully selected technologies chosen for ope
 
 The Openxos organization maintains an active development schedule with regular minor version releases addressing functionality improvements and bug fixes. Current focus areas include deeper integration between ghost and probe tools through shared configuration profiles, unified database schemas enabling cross-tool intelligence correlation, and synchronized signature databases eliminating redundant fingerprinting logic.
 
-**Version 0.1.2** represents the current stable release across both tools. This version includes all core reconnaissance capabilities, comprehensive security analysis features, and validated effectiveness against production infrastructure. The codebase maintains 144 passing tests with complete coverage of critical functionality paths.
+**Version 0.1.3 & 0.1.2** represents the current stable release across both tools. This version includes all core reconnaissance capabilities, comprehensive security analysis features, and validated effectiveness against production infrastructure. The codebase maintains 144 passing tests with complete coverage of critical functionality paths.
 
 **Upcoming development priorities** include export of evasion profiles from ghost for direct import into probe, shared SQLite schema enabling unified security intelligence databases, signature synchronization allowing probe to leverage ghost's advanced fingerprinting capabilities, and HTML report generation for client deliverables and program submissions.
 
